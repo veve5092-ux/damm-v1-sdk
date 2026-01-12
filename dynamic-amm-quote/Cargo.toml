@@ -15,7 +15,7 @@ prog_dynamic_vault = { path = "../programs/dynamic-vault", package = "dynamic-va
 anyhow = "1.0.57"
 spl-token-swap = "3.0.0"
 meteora-marinade-sdk = { version = "0.1.0", features = ["cpi"] }
-spl-stake-pool = { git = "https://github.com/solana-labs/solana-program-library", tag = "spl-stake-pool-v3.0.0" }
+spl-stake-pool = "3.0"
 meteora-stable-swap-math = { git = "https://github.com/mercurial-finance/stable-swap", rev = "140c2e0d366765d49edc9a175ed12b1ad10c3b66", package = "stable-swap-math" }
 meteora-stable-swap-client = { git = "https://github.com/mercurial-finance/stable-swap", rev = "140c2e0d366765d49edc9a175ed12b1ad10c3b66", package = "stable-swap-client" }
 
